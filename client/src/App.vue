@@ -1,6 +1,7 @@
 <template>
   <vueper-slides
     :infinite="false"
+    :touchable="false"
     @slide="slideUpdate"
     fixed-height="100vh"
     ref="slides">
