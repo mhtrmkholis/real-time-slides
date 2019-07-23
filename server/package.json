@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for real-time-slides",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmtrxw/real-time-slides.git"
+  },
+  "author": "Dimitri Wahyudiputra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmtrxw/real-time-slides/issues"
+  },
+  "homepage": "https://github.com/dmtrxw/real-time-slides#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
