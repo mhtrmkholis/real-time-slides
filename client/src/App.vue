@@ -108,11 +108,24 @@ export default {
   font-family: sans-serif;
 }
 .vueperslide__title {
-  font-size: 7em;
+  font-size: 2em;
+  font-weight: 900;
   color: #fff;
 }
 .character-icon {
   width: 200px;
   border-radius: 100%;
+}
+
+@media (min-width: 500px) {
+  .vueperslide__title {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 800px) {
+  .vueperslide__title {
+    font-size: 7em;
+  }
 }
 </style>
